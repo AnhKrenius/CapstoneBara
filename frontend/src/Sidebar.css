@@ -1,0 +1,89 @@
+/* src/Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #FFE5D3;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #DDD;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.message-date {
+  color: #666;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.new-chat-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #F78DA7;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.new-chat-btn:hover {
+  background-color: #0056b3;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.conversations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.conversation-item {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conversation-item:hover {
+  background-color: #e9ecef;
+}
+
+.message-time {
+  font-size: 12px;
+  color: #666;
+  margin-right: 10px;
+}
+
+.message-date {
+  font-weight: bold;
+}

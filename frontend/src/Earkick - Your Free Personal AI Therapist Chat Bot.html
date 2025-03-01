@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://earkick.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="icon" type="image/png" href="https://earkick.com/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/svg+xml" href="https://earkick.com/favicon.svg"><link rel="shortcut icon" href="https://earkick.com/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="https://earkick.com/apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Earkick"><link rel="manifest" href="https://earkick.com/site.webmanifest"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><title>Earkick - Your Free Personal AI Therapist Chat Bot</title><meta name="Description" content="Measure &amp; improve your mental health in real time with your personal AI chat bot. No sign up. Available 24/7. Daily insights just for you!"><meta property="og:logo" content="/logo512.png"><meta property="og:type" content="website"><meta property="fb:app_id" content="2836287600020071"><meta property="og:title" content="Earkick - Your Free Personal AI Therapist Chat Bot"><meta property="og:description" content="Measure &amp; improve your mental health in real time with your personal AI chat bot. No sign up. Available 24/7. Daily insights just for you!"><meta property="og:image" content="https://earkick.com/earkick_og.png"><meta property="og:url" content="https://earkick.com/"><meta name="next-head-count" content="20"><meta name="twitter:title" content="Earkick - Your Free Personal AI Therapist Chat Bot"><meta name="twitter:image" content="https://earkick.com/earkick_og.png"><meta name="twitter:card" content="app"><meta name="twitter:site" content="@earkickapp"><meta name="twitter:description" content="Measure &amp; improve your mental health in real time with your personal AI chat bot. No sign up. Available 24/7. Daily insights just for you!"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="Earkick"><meta name="twitter:app:id:iphone" content="1584854531"><meta name="twitter:app:name:ipad" content="Earkick"><meta name="twitter:app:id:ipad" content="1584854531"><meta name="twitter:app:id:googleplay" content=""><script type="text/javascript" async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/identify_45dd5971.js.download"></script><script type="text/javascript" async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/main.MTAxMGIxNjZiMA.js.download" data-id="CCK169BC77U0EARNA1L0"></script><script type="text/javascript" async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/events.js.download"></script><script src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/1680722115456586" async=""></script><script async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/js"></script><script type="text/javascript" charset="UTF-8" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/265550b06f0e85517383c62fd2748ee8.js.download"></script><link rel="manifest" href="https://earkick.com/manifest.json"><script async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/js(1)"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-6Q848KCR7E")</script><meta name="theme-color" content="#563d7c"><script defer="defer" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/main.9a4e1a37.js.download"></script><link href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/main.ec56fedb.css" rel="stylesheet"><script type="text/javascript" async="" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/f.txt"></script><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/5687.f61d44e5.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/357.52c833e8.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/3781.3515d7f2.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/2216.0a8be39e.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/1326.db61e607.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/8926.ce0d18c3.chunk.css"><link rel="stylesheet" type="text/css" href="./Earkick - Your Free Personal AI Therapist Chat Bot_files/5796.5b0ed6aa.chunk.css"><link rel="canonical" href="https://earkick.com/" data-react-helmet="true"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="router-style"><div class="header__app-download"><div class="app-download-container"><div class="close-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></div><div class="app-logo"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/app-logo.a1bc9afa5e2457b2c92c.png" alt="Earkick logo" loading="lazy"></div><div class="content"><div class="title">Earkick</div><div class="description">Free app for iPhone</div></div><div class="download-button"><a href="https://earkick.go.link/?adj_t=1gmtqodf&amp;adj_campaign=mobilebar"><button>Download</button></a></div></div></div><div class="header fixed "><div class="header__container"><div class="logo"><a href="https://earkick.com/"><img src="data:image/png;base64,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" alt="Earkick logo" loading="lazy"></a></div><div class="links"><ul><li class=""><a href="https://earkick.com/technologies">Tech</a></li><li class=""><a href="https://earkick.com/about">About</a></li><li><a href="https://blog.earkick.com/">Blog</a></li><li><a href="https://chat.earkick.com/">Chat with Panda</a></li></ul></div><div class="toggle-modal"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></div><div class="download-buttons"><a href="https://earkick.go.link/?adj_t=1gmtqodf&amp;adj_campaign=headernav" target="_blank" rel="noreferrer" class="app-store"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/app-store.4bfc3228d4683dcd173e.webp" alt="appstore download button" loading="lazy"></a></div></div><div class="mobile-modal-container "><div class="mobile-modal" style="background: rgb(255, 247, 172);"><div class="close-icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></div><ul></ul><div class="mobile-appstore"><a href="https://earkick.go.link/?adj_t=1gmtqodf&amp;adj_campaign=headernav" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/app-store.4bfc3228d4683dcd173e.webp" alt="App store download button" loading="lazy"></a></div></div></div></div><div class="main-content flex-column" style="background: rgb(255, 254, 245);"><div class="main-banner"><div class="main-banner__container"><div class="left-part"><div class="text-container"><h1>Your Free Personal AI Therapist</h1><p>Measure &amp; improve your mental health in real time with your personal AI chat bot. No sign up. Available 24/7. Daily insights just for you!</p></div></div><div class="right-part"><div class="phone-background"><center><svg width="375" height="418" viewBox="0 0 375 418" fill="none" xmlns="http://www.w3.org/2000/svg" class="chat-panda"><mask id="path-1-outside-1_9780_2476" maskUnits="userSpaceOnUse" x="42.3896" y="-0.0588379" width="292" height="418" fill="black"><rect fill="white" x="42.3896" y="-0.0588379" width="292" height="418"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M212.946 59.2471C226.333 62.0169 238.785 66.8229 249.079 73.4286C256.039 60.257 268.863 51.4229 283.531 51.4229C305.618 51.4229 323.523 71.4523 323.523 96.1599C323.523 114.917 313.205 130.977 298.571 137.626C318.439 191.858 305.466 247.476 272.686 259.518C268.008 261.147 263.468 262.671 259.045 264.089C259.376 265.865 259.123 267.174 258.498 268.586C273.374 277.469 287.311 289.856 292.388 300.171C298.682 312.956 292.123 327.421 276.512 326.172C271.407 325.764 264.592 321.317 257.732 315.516C259.48 336.474 257.01 358.017 252.388 382.838C249.358 399.106 248.32 403.022 235.441 405.884C229.34 407.24 217.693 407.804 207.651 405.884C199.835 404.802 197.885 401.566 196.806 395.039C196.806 395.039 196.435 390.096 196.168 384.43C193.257 384.721 190.29 384.871 187.279 384.871C184.047 384.871 180.867 384.699 177.752 384.364C177.485 390.057 177.111 395.039 177.111 395.039C176.032 401.566 174.082 404.802 166.266 405.884C156.223 407.804 144.576 407.24 138.476 405.884C125.597 403.022 124.558 399.106 121.529 382.838C117.078 358.937 114.623 338.075 116.008 317.849C109.249 323.03 100.37 328.528 92.3819 329.289C76.7918 330.774 70.0144 316.41 76.1139 303.531C80.9977 293.219 94.5747 280.734 109.187 271.644C107.231 269.707 105.541 266.315 105.696 263.623C101.807 262.342 97.8246 260.974 93.7374 259.518C64.5903 248.673 48.3224 184.278 70.691 135.474C70.8876 135.037 71.0846 134.603 71.2821 134.171C59.9397 126.276 52.3896 112.204 52.3896 96.1599C52.3896 71.4523 70.2948 51.4229 92.3819 51.4229C106.461 51.4229 118.84 59.5608 125.966 71.861C134.292 66.8733 143.462 63.1576 153.042 60.6302C156.002 59.2629 161.038 56.4279 165.077 52.4787C167.124 50.4773 169.347 48.4758 171.504 46.5333C175.634 42.8149 179.524 39.3124 181.483 36.439C183.869 32.9395 187.449 23.3156 188.94 18.9412C189.934 19.9133 191.923 23.024 191.923 27.6901V40.8135C191.923 44.7019 194.011 51.3122 202.363 46.6461C210.715 41.98 216.78 34.9809 218.769 32.0646C219.266 32.5506 219.962 34.9809 218.769 40.8135C217.576 46.6461 212.306 52.9648 209.82 55.3951C208.96 56.2365 210.26 58.025 212.946 59.2471Z"></path></mask><path fill-rule="evenodd" clip-rule="evenodd" d="M212.946 59.2471C226.333 62.0169 238.785 66.8229 249.079 73.4286C256.039 60.257 268.863 51.4229 283.531 51.4229C305.618 51.4229 323.523 71.4523 323.523 96.1599C323.523 114.917 313.205 130.977 298.571 137.626C318.439 191.858 305.466 247.476 272.686 259.518C268.008 261.147 263.468 262.671 259.045 264.089C259.376 265.865 259.123 267.174 258.498 268.586C273.374 277.469 287.311 289.856 292.388 300.171C298.682 312.956 292.123 327.421 276.512 326.172C271.407 325.764 264.592 321.317 257.732 315.516C259.48 336.474 257.01 358.017 252.388 382.838C249.358 399.106 248.32 403.022 235.441 405.884C229.34 407.24 217.693 407.804 207.651 405.884C199.835 404.802 197.885 401.566 196.806 395.039C196.806 395.039 196.435 390.096 196.168 384.43C193.257 384.721 190.29 384.871 187.279 384.871C184.047 384.871 180.867 384.699 177.752 384.364C177.485 390.057 177.111 395.039 177.111 395.039C176.032 401.566 174.082 404.802 166.266 405.884C156.223 407.804 144.576 407.24 138.476 405.884C125.597 403.022 124.558 399.106 121.529 382.838C117.078 358.937 114.623 338.075 116.008 317.849C109.249 323.03 100.37 328.528 92.3819 329.289C76.7918 330.774 70.0144 316.41 76.1139 303.531C80.9977 293.219 94.5747 280.734 109.187 271.644C107.231 269.707 105.541 266.315 105.696 263.623C101.807 262.342 97.8246 260.974 93.7374 259.518C64.5903 248.673 48.3224 184.278 70.691 135.474C70.8876 135.037 71.0846 134.603 71.2821 134.171C59.9397 126.276 52.3896 112.204 52.3896 96.1599C52.3896 71.4523 70.2948 51.4229 92.3819 51.4229C106.461 51.4229 118.84 59.5608 125.966 71.861C134.292 66.8733 143.462 63.1576 153.042 60.6302C156.002 59.2629 161.038 56.4279 165.077 52.4787C167.124 50.4773 169.347 48.4758 171.504 46.5333C175.634 42.8149 179.524 39.3124 181.483 36.439C183.869 32.9395 187.449 23.3156 188.94 18.9412C189.934 19.9133 191.923 23.024 191.923 27.6901V40.8135C191.923 44.7019 194.011 51.3122 202.363 46.6461C210.715 41.98 216.78 34.9809 218.769 32.0646C219.266 32.5506 219.962 34.9809 218.769 40.8135C217.576 46.6461 212.306 52.9648 209.82 55.3951C208.96 56.2365 210.26 58.025 212.946 59.2471Z" fill="white"></path><path d="M212.946 59.2471L208.806 68.3496L209.824 68.8129L210.92 69.0396L212.946 59.2471ZM249.079 73.4286L243.678 81.8448L252.837 87.7218L257.92 78.1004L249.079 73.4286ZM298.571 137.626L294.435 128.521L285.991 132.357L289.181 141.065L298.571 137.626ZM272.686 259.518L275.975 268.961L276.055 268.934L276.134 268.905L272.686 259.518ZM259.045 264.089L255.993 254.566L247.6 257.256L249.214 265.92L259.045 264.089ZM258.498 268.586L249.355 264.536L245.769 272.632L253.371 277.172L258.498 268.586ZM292.388 300.171L301.36 295.755L292.388 300.171ZM276.512 326.172L277.309 316.204H277.309L276.512 326.172ZM257.732 315.516L264.189 307.88L245.761 292.298L247.767 316.347L257.732 315.516ZM252.388 382.838L262.219 384.669V384.668L252.388 382.838ZM235.441 405.884L233.271 396.122H233.271L235.441 405.884ZM207.651 405.884L209.528 396.062L209.276 396.014L209.022 395.979L207.651 405.884ZM196.806 395.039L186.834 395.787L186.867 396.231L186.94 396.67L196.806 395.039ZM196.168 384.43L206.157 383.96L205.661 373.432L195.173 374.48L196.168 384.43ZM177.752 384.364L178.819 374.421L168.26 373.289L167.763 383.896L177.752 384.364ZM177.111 395.039L186.977 396.67L187.05 396.231L187.083 395.787L177.111 395.039ZM166.266 405.884L164.895 395.978L164.641 396.014L164.389 396.062L166.266 405.884ZM138.476 405.884L140.645 396.122L140.645 396.122L138.476 405.884ZM121.529 382.838L111.698 384.668L121.529 382.838ZM116.008 317.849L125.984 318.532L127.497 296.443L109.924 309.912L116.008 317.849ZM92.3819 329.289L91.4338 319.334H91.4338L92.3819 329.289ZM76.1139 303.531L85.1515 307.811L85.1515 307.811L76.1139 303.531ZM109.187 271.644L114.47 280.135L125.224 273.445L116.222 264.536L109.187 271.644ZM105.696 263.623L115.679 264.195L116.118 256.527L108.824 254.125L105.696 263.623ZM93.7374 259.518L90.2501 268.89L90.3159 268.915L90.382 268.938L93.7374 259.518ZM70.691 135.474L79.7816 139.641L79.7966 139.608L79.8114 139.575L70.691 135.474ZM71.2821 134.171L80.3755 138.332L83.8508 130.736L76.9952 125.964L71.2821 134.171ZM125.966 71.861L117.314 76.8741L122.401 85.6541L131.105 80.4395L125.966 71.861ZM153.042 60.6302L155.593 70.2994L156.441 70.0758L157.237 69.7081L153.042 60.6302ZM165.077 52.4787L172.068 59.6291L172.068 59.6291L165.077 52.4787ZM171.504 46.5333L178.196 53.9646L178.196 53.9646L171.504 46.5333ZM181.483 36.439L189.745 42.0728V42.0728L181.483 36.439ZM188.94 18.9412L195.931 11.7908L184.592 0.705076L179.475 15.7142L188.94 18.9412ZM202.363 46.6461L207.24 55.3761V55.3761L202.363 46.6461ZM218.769 32.0646L225.76 24.9141L217.229 16.5734L210.507 26.4308L218.769 32.0646ZM209.82 55.3951L216.811 62.5455L216.811 62.5454L209.82 55.3951ZM210.92 69.0396C223.31 71.6032 234.576 76.0042 243.678 81.8448L254.48 65.0124C242.993 57.6416 229.356 52.4305 214.972 49.4545L210.92 69.0396ZM257.92 78.1004C263.415 67.701 273.108 61.4229 283.531 61.4229V41.4229C264.617 41.4229 248.662 52.8129 240.237 68.7567L257.92 78.1004ZM283.531 61.4229C299.071 61.4229 313.523 75.8914 313.523 96.1599H333.523C333.523 67.0133 312.166 41.4229 283.531 41.4229V61.4229ZM313.523 96.1599C313.523 111.352 305.183 123.638 294.435 128.521L302.708 146.73C321.226 138.316 333.523 118.481 333.523 96.1599H313.523ZM289.181 141.065C298.528 166.58 300.013 192.106 295.603 212.255C291.126 232.706 281.139 245.759 269.238 250.131L276.134 268.905C297.013 261.235 309.902 240.458 315.14 216.532C320.444 192.303 318.482 162.904 307.961 134.186L289.181 141.065ZM269.396 250.075C264.787 251.68 260.327 253.177 255.993 254.566L262.097 273.612C266.609 272.166 271.229 270.615 275.975 268.961L269.396 250.075ZM249.214 265.92C249.215 265.921 249.21 265.899 249.206 265.856C249.201 265.812 249.195 265.751 249.193 265.673C249.187 265.511 249.195 265.318 249.224 265.109C249.284 264.671 249.4 264.434 249.355 264.536L267.642 272.635C268.965 269.648 269.628 266.291 268.876 262.257L249.214 265.92ZM253.371 277.172C260.271 281.291 266.915 286.207 272.349 291.203C277.907 296.313 281.656 301.011 283.417 304.588L301.36 295.755C298.043 289.017 292.285 282.364 285.886 276.48C279.363 270.483 271.602 264.763 263.625 260L253.371 277.172ZM283.417 304.588C285.341 308.497 284.903 311.81 283.919 313.586C283.179 314.919 281.552 316.543 277.309 316.204L275.715 336.14C287.083 337.05 296.541 332.066 301.41 323.283C306.034 314.943 305.729 304.63 301.36 295.755L283.417 304.588ZM277.309 316.204C277 316.179 275.581 315.858 272.862 314.254C270.324 312.756 267.38 310.578 264.189 307.88L251.275 323.152C254.944 326.254 258.838 329.201 262.698 331.479C266.378 333.65 270.92 335.757 275.715 336.14L277.309 316.204ZM247.767 316.347C249.404 335.986 247.12 356.503 242.557 381.007L262.219 384.668C266.9 359.531 269.555 336.962 267.697 314.685L247.767 316.347ZM242.557 381.007C241.785 385.153 241.22 388.052 240.615 390.307C240.014 392.545 239.543 393.457 239.289 393.839C239.274 393.862 239.095 394.828 233.271 396.122L237.61 415.646C244.665 414.078 251.446 411.655 255.927 404.938C257.921 401.949 259.083 398.653 259.931 395.492C260.775 392.347 261.476 388.657 262.219 384.669L242.557 381.007ZM233.271 396.122C228.51 397.18 218.24 397.727 209.528 396.062L205.773 415.706C217.147 417.88 230.171 417.299 237.61 415.646L233.271 396.122ZM209.022 395.979C207.637 395.787 206.983 395.56 206.755 395.462C206.606 395.398 206.826 395.474 207.103 395.779C207.357 396.058 207.36 396.204 207.238 395.874C207.094 395.481 206.894 394.753 206.672 393.407L186.94 396.67C187.537 400.28 188.648 405.209 192.301 409.229C196.153 413.468 201.297 415.1 206.28 415.79L209.022 395.979ZM196.806 395.039C206.777 394.29 206.777 394.291 206.777 394.291C206.777 394.291 206.778 394.291 206.778 394.291C206.778 394.291 206.778 394.291 206.778 394.291C206.777 394.291 206.777 394.29 206.777 394.289C206.777 394.288 206.777 394.285 206.777 394.281C206.776 394.273 206.775 394.261 206.774 394.244C206.771 394.21 206.768 394.157 206.763 394.088C206.752 393.949 206.737 393.742 206.719 393.474C206.681 392.938 206.627 392.163 206.566 391.212C206.442 389.307 206.286 386.716 206.157 383.96L186.179 384.901C186.316 387.809 186.479 390.523 186.608 392.506C186.672 393.499 186.728 394.313 186.768 394.882C186.788 395.166 186.804 395.389 186.816 395.543C186.821 395.62 186.826 395.679 186.829 395.72C186.83 395.741 186.831 395.757 186.832 395.768C186.833 395.773 186.833 395.778 186.833 395.781C186.833 395.783 186.833 395.784 186.833 395.785C186.833 395.786 186.833 395.786 186.833 395.786C186.834 395.786 186.834 395.787 186.834 395.787C186.834 395.787 186.834 395.787 196.806 395.039ZM195.173 374.48C192.593 374.738 189.958 374.871 187.279 374.871V394.871C190.622 394.871 193.921 394.705 197.162 394.381L195.173 374.48ZM187.279 374.871C184.403 374.871 181.579 374.718 178.819 374.421L176.685 394.307C180.155 394.68 183.691 394.871 187.279 394.871V374.871ZM167.763 383.896C167.633 386.665 167.477 389.272 167.352 391.19C167.29 392.147 167.237 392.928 167.199 393.468C167.179 393.737 167.164 393.946 167.154 394.086C167.149 394.156 167.145 394.209 167.143 394.243C167.141 394.26 167.14 394.273 167.14 394.281C167.14 394.285 167.139 394.288 167.139 394.289C167.139 394.29 167.139 394.291 167.139 394.291C167.139 394.291 167.139 394.291 167.139 394.291C167.139 394.291 167.139 394.291 167.139 394.291C167.139 394.29 167.139 394.29 177.111 395.039C187.083 395.787 187.083 395.787 187.083 395.787C187.083 395.787 187.083 395.786 187.083 395.786C187.083 395.786 187.083 395.785 187.083 395.785C187.083 395.784 187.083 395.783 187.084 395.781C187.084 395.778 187.084 395.773 187.085 395.768C187.085 395.756 187.087 395.74 187.088 395.72C187.091 395.678 187.096 395.618 187.101 395.541C187.113 395.386 187.129 395.161 187.149 394.875C187.189 394.303 187.246 393.483 187.311 392.483C187.44 390.487 187.604 387.756 187.741 384.833L167.763 383.896ZM167.245 393.407C167.023 394.753 166.823 395.481 166.678 395.874C166.557 396.204 166.56 396.058 166.814 395.779C167.091 395.474 167.311 395.398 167.162 395.462C166.934 395.56 166.279 395.787 164.895 395.978L167.637 415.79C172.62 415.1 177.763 413.468 181.616 409.229C185.269 405.208 186.38 400.28 186.977 396.67L167.245 393.407ZM164.389 396.062C155.677 397.727 145.407 397.18 140.645 396.122L136.307 415.646C143.746 417.299 156.77 417.88 168.143 415.706L164.389 396.062ZM140.645 396.122C134.822 394.828 134.643 393.862 134.628 393.839C134.373 393.457 133.903 392.545 133.302 390.307C132.697 388.052 132.132 385.153 131.36 381.007L111.698 384.668C112.44 388.657 113.141 392.347 113.986 395.492C114.834 398.653 115.996 401.949 117.99 404.938C122.471 411.655 129.251 414.078 136.307 415.646L140.645 396.122ZM131.36 381.007C126.966 357.413 124.685 337.516 125.984 318.532L106.031 317.166C104.561 338.635 107.19 360.462 111.698 384.668L131.36 381.007ZM109.924 309.912C103.275 315.009 96.3647 318.864 91.4338 319.334L93.33 339.244C104.376 338.192 115.222 331.051 122.091 325.786L109.924 309.912ZM91.4338 319.334C87.1969 319.737 85.5452 318.138 84.7856 316.816C83.7744 315.055 83.2864 311.749 85.1515 307.811L67.0762 299.251C62.8419 308.192 62.6929 318.507 67.443 326.777C72.4448 335.485 81.9768 340.325 93.33 339.244L91.4338 319.334ZM85.1515 307.811C86.844 304.238 90.4776 299.527 95.8942 294.375C101.192 289.336 107.69 284.352 114.47 280.135L103.905 263.153C96.0717 268.026 88.4757 273.829 82.1104 279.883C75.8643 285.824 70.2676 292.512 67.0762 299.251L85.1515 307.811ZM116.222 264.536C116.243 264.557 116.173 264.489 116.057 264.319C115.945 264.155 115.839 263.966 115.755 263.783C115.67 263.595 115.645 263.492 115.646 263.497C115.648 263.505 115.661 263.563 115.672 263.67C115.682 263.777 115.693 263.955 115.679 264.195L95.7119 263.051C95.5122 266.537 96.4841 269.715 97.5444 272.051C98.6381 274.46 100.215 276.834 102.153 278.751L116.222 264.536ZM108.824 254.125C105.018 252.871 101.112 251.529 97.0927 250.098L90.382 268.938C94.5376 270.418 98.5956 271.813 102.567 273.121L108.824 254.125ZM97.2247 250.146C92.658 248.447 87.6991 244.265 83.1416 237.072C78.6356 229.96 74.9503 220.546 72.685 209.688C68.1384 187.896 69.6179 161.816 79.7816 139.641L61.6003 131.308C49.3955 157.936 47.8247 188.456 53.1066 213.773C55.7556 226.47 60.2043 238.238 66.2471 247.776C72.2385 257.232 80.2432 265.167 90.2501 268.89L97.2247 250.146ZM79.8114 139.575C79.9992 139.158 80.1872 138.743 80.3755 138.332L62.1887 130.01C61.982 130.462 61.776 130.916 61.5706 131.373L79.8114 139.575ZM76.9952 125.964C68.4796 120.036 62.3896 109.107 62.3896 96.1599H42.3896C42.3896 115.301 51.3997 132.515 65.569 142.378L76.9952 125.964ZM62.3896 96.1599C62.3896 75.8914 76.8424 61.4229 92.3819 61.4229V41.4229C63.7471 41.4229 42.3896 67.0133 42.3896 96.1599H62.3896ZM92.3819 61.4229C102.394 61.4229 111.711 67.2032 117.314 76.8741L134.619 66.8479C125.969 51.9184 110.527 41.4229 92.3819 41.4229V61.4229ZM131.105 80.4395C138.537 75.9872 146.819 72.614 155.593 70.2994L150.492 50.961C140.104 53.7013 130.047 57.7595 120.827 63.2825L131.105 80.4395ZM157.237 69.7081C160.807 68.0584 166.936 64.6472 172.068 59.6291L158.086 45.3283C155.14 48.2086 151.196 50.4675 148.848 51.5524L157.237 69.7081ZM172.068 59.6291C173.943 57.7963 176.009 55.9336 178.196 53.9646L164.813 39.102C162.685 41.0181 160.306 43.1583 158.086 45.3284L172.068 59.6291ZM178.196 53.9646C181.902 50.6274 186.94 46.1866 189.745 42.0728L173.221 30.8053C172.108 32.4382 169.366 35.0025 164.813 39.102L178.196 53.9646ZM189.745 42.0728C191.622 39.3197 193.47 35.0806 194.81 31.7874C196.275 28.1874 197.609 24.5034 198.405 22.1682L179.475 15.7142C178.78 17.7534 177.579 21.0685 176.285 24.249C174.866 27.7362 173.73 30.0588 173.221 30.8053L189.745 42.0728ZM181.949 26.0915C181.732 25.8786 181.599 25.7191 181.54 25.6458C181.475 25.5642 181.446 25.5196 181.445 25.5172C181.443 25.5149 181.503 25.6088 181.582 25.7964C181.735 26.1603 181.923 26.7946 181.923 27.6901H201.923C201.923 20.353 198.864 14.6584 195.931 11.7908L181.949 26.0915ZM181.923 27.6901V40.8135H201.923V27.6901H181.923ZM181.923 40.8135C181.923 43.7262 182.574 49.6721 186.964 54.0329C189.515 56.5665 192.996 58.177 197.031 58.2485C200.76 58.3147 204.225 57.061 207.24 55.3761L197.486 37.9161C196.326 38.5643 196.397 38.2341 197.386 38.2517C197.924 38.2612 198.609 38.3759 199.338 38.6889C200.06 38.9994 200.636 39.4234 201.058 39.8426C201.464 40.2463 201.695 40.6099 201.81 40.8223C201.925 41.0334 201.961 41.159 201.963 41.1627C201.965 41.1705 201.952 41.1255 201.939 41.0341C201.927 40.9436 201.923 40.8622 201.923 40.8135H181.923ZM207.24 55.3761C217.221 49.8003 224.366 41.606 227.031 37.6983L210.507 26.4308C209.194 28.3557 204.21 34.1598 197.486 37.9161L207.24 55.3761ZM211.778 39.215C210.841 38.299 210.325 37.4112 210.077 36.9325C209.801 36.3992 209.65 35.9623 209.57 35.6972C209.413 35.174 209.413 34.9155 209.422 35.0554C209.439 35.3282 209.449 36.477 208.972 38.8094L228.566 42.8176C229.282 39.3174 229.54 36.3347 229.383 33.8127C229.305 32.5552 229.113 31.2334 228.722 29.9357C228.421 28.9335 227.669 26.7809 225.76 24.9141L211.778 39.215ZM208.972 38.8094C208.76 39.8428 207.978 41.5991 206.511 43.7554C205.124 45.794 203.618 47.4734 202.829 48.2447L216.811 62.5454C218.508 60.8864 220.88 58.1914 223.047 55.0049C225.135 51.9362 227.584 47.6168 228.566 42.8176L208.972 38.8094ZM202.829 48.2446C200.1 50.9128 199.229 54.4664 199.665 57.5698C200.04 60.2427 201.288 62.2073 202.186 63.3515C204.03 65.702 206.525 67.3121 208.806 68.3496L217.087 50.1445C216.681 49.96 217.182 50.0648 217.92 51.0052C218.265 51.4443 219.181 52.7276 219.471 54.7904C219.821 57.2836 219.11 60.2981 216.811 62.5455L202.829 48.2446Z" fill="white" mask="url(#path-1-outside-1_9780_2476)"></path><path d="M76.1138 303.531C82.2132 290.652 101.872 274.384 120.174 265.572L126.952 308.276C126.952 308.276 107.972 327.804 92.3818 329.289C76.7917 330.774 70.0144 316.41 76.1138 303.531Z" fill="black"></path><path d="M121.528 382.838C115.821 352.191 113.396 326.541 118.139 300.82L119.495 266.25L125.595 267.606L154.742 273.029L177.111 274.384C177.111 274.384 175.076 367.925 177.111 367.925C179.146 367.925 177.111 395.039 177.111 395.039C176.031 401.566 174.081 404.802 166.265 405.884C156.223 407.804 144.576 407.24 138.475 405.884C125.597 403.022 124.558 399.106 121.528 382.838Z" fill="black"></path><path d="M252.388 382.838C258.095 352.191 260.52 326.541 255.777 300.82L253.706 264.895L246.25 266.25L219.174 273.029L196.805 274.384C196.805 274.384 198.84 367.925 196.805 367.925C194.77 367.925 196.805 395.039 196.805 395.039C197.885 401.566 199.835 404.802 207.651 405.884C217.693 407.804 229.34 407.24 235.441 405.884C248.319 403.022 249.358 399.106 252.388 382.838Z" fill="black"></path><ellipse cx="187.279" cy="329.967" rx="69.8169" ry="54.9046" fill="black"></ellipse><path d="M244.894 332C244.894 358.205 218.795 379.449 186.6 379.449C154.406 379.449 128.307 358.205 128.307 332C128.307 305.795 154.406 291.33 186.6 291.33C218.795 291.33 244.894 305.795 244.894 332Z" fill="white"></path><path d="M292.389 300.171C286.095 287.386 266.192 271.418 247.759 262.884L236.081 272.35L229.302 285.907C229.302 285.907 260.902 324.924 276.512 326.172C292.123 327.421 298.682 312.956 292.389 300.171Z" fill="black"></path><path d="M114.43 260.017C101.775 257.305 105.381 268.428 109.649 272.069C113.666 276.589 122.982 286.682 128.104 290.901C134.507 296.173 145.805 304.836 152.585 308.602C159.364 312.369 164.26 318.771 168.403 324.421C172.546 330.07 187.611 347.772 194.391 352.668C201.17 357.564 204.56 359.824 208.703 355.681C212.846 351.538 210.586 348.902 215.482 334.213C220.378 319.525 232.807 305.589 236.573 298.81C240.34 292.031 252.769 279.225 255.782 273.576C258.795 267.926 260.678 266.796 257.665 260.017C254.652 253.238 226.028 267.55 218.872 272.069C211.716 276.589 196.539 273.576 187.5 273.576C178.461 273.576 161.247 275.082 152.585 272.069C143.922 269.056 130.248 263.407 114.43 260.017Z" fill="#A83A3D"></path><path d="M137.546 287.601C131.219 283.383 119.7 271.142 115.809 266.496C117.064 265.743 122.481 267.037 125.494 270.653L125.494 270.653C129.26 275.172 134.91 281.952 142.442 287.601C149.975 293.251 161.651 298.147 168.43 306.433C175.209 314.719 181.235 321.875 188.391 329.031C195.547 336.187 198.56 342.966 201.573 342.966C204.586 342.966 203.457 329.031 208.353 319.615C213.249 310.199 228.691 290.238 236.223 281.952C243.756 273.666 249.405 264.25 254.678 260.86C259.951 257.471 250.159 272.536 243.756 280.069C237.353 287.601 228.314 298.524 222.288 306.433C216.262 314.342 210.989 324.134 208.353 331.667C205.716 339.2 207.223 347.485 203.457 350.122C199.69 352.758 200.443 347.862 196.301 344.849C192.158 341.836 184.248 331.667 181.235 329.031C178.222 326.394 170.69 313.965 163.91 306.433C157.884 300.03 145.455 292.874 137.546 287.601Z" fill="white"></path><path d="M140.535 276.798C140.535 278.917 140.535 280.635 137.823 280.635C136.325 280.635 135.788 280.155 135.11 276.798C135.11 274.678 136.325 273.92 137.823 273.92C139.32 273.92 140.535 274.678 140.535 276.798Z" fill="white"></path><path d="M152.988 287.05C152.988 289.17 152.988 290.887 150.276 290.887C148.778 290.887 147.564 289.17 147.564 287.05C147.564 284.931 148.778 284.173 150.276 284.173C151.774 284.173 152.988 284.931 152.988 287.05Z" fill="white"></path><path d="M165.102 293.96C165.102 296.079 165.102 297.797 162.39 297.797C160.892 297.797 160.356 296.079 160.356 293.96C160.356 291.84 161.909 290.602 163.407 290.602C164.905 290.602 165.102 291.84 165.102 293.96Z" fill="white"></path><path d="M173.758 300.918C173.758 303.037 174.776 304.755 172.063 304.755C170.566 304.755 169.012 303.037 169.012 300.918C169.012 298.799 169.548 298.04 171.046 298.04C172.544 298.04 173.758 298.799 173.758 300.918Z" fill="white"></path><path d="M180.516 309.235C180.516 311.354 180.516 313.072 177.804 313.072C176.306 313.072 175.092 311.354 175.092 309.235C175.092 307.116 176.306 306.357 177.804 306.357C179.302 306.357 180.516 307.116 180.516 309.235Z" fill="white"></path><path d="M189.014 317.565C189.014 319.684 189.014 321.402 186.302 321.402C184.804 321.402 184.268 319.684 184.268 317.565C184.268 315.446 185.821 314.208 187.319 314.208C188.817 314.208 189.014 315.446 189.014 317.565Z" fill="white"></path><path d="M198.507 326.199C198.507 328.318 199.524 330.036 196.812 330.036C195.314 330.036 193.761 328.318 193.761 326.199C193.761 324.079 194.297 323.321 195.795 323.321C197.293 323.321 198.507 324.079 198.507 326.199Z" fill="white"></path><path d="M206.304 316.606C206.304 314.487 206.304 312.769 203.592 312.769C202.094 312.769 201.558 313.249 200.88 316.606C200.88 318.725 202.094 319.484 203.592 319.484C205.09 319.484 206.304 318.725 206.304 316.606Z" fill="white"></path><path d="M212.454 304.461C212.454 302.342 212.454 300.624 209.742 300.624C208.244 300.624 207.03 302.342 207.03 304.461C207.03 306.58 208.244 307.339 209.742 307.339C211.24 307.339 212.454 306.58 212.454 304.461Z" fill="white"></path><path d="M219.865 295.503C219.865 293.384 219.865 291.666 217.153 291.666C215.655 291.666 215.119 293.384 215.119 295.503C215.119 297.622 216.672 298.86 218.17 298.86C219.668 298.86 219.865 297.622 219.865 295.503Z" fill="white"></path><path d="M228.001 284.298C228.001 282.179 229.018 280.461 226.306 280.461C224.808 280.461 223.255 282.179 223.255 284.298C223.255 286.418 223.791 287.176 225.289 287.176C226.787 287.176 228.001 286.418 228.001 284.298Z" fill="white"></path><path d="M238.511 273.441C238.511 271.322 238.511 269.604 235.799 269.604C234.301 269.604 233.087 271.322 233.087 273.441C233.087 275.56 234.301 276.319 235.799 276.319C237.297 276.319 238.511 275.56 238.511 273.441Z" fill="white"></path><ellipse cx="92.3819" cy="96.1599" rx="39.9922" ry="44.7371" fill="black"></ellipse><ellipse cx="283.531" cy="96.1599" rx="39.9922" ry="44.7371" fill="black"></ellipse><path d="M75.2362 137.558L75.2437 137.541L75.2511 137.525C88.0364 109.09 102.586 93.0529 125.622 77.9749C143.259 66.4316 165.61 61.1786 187.714 61.5061C209.83 61.8337 231.231 67.7424 246.902 77.9756C265.666 90.271 282.618 109.76 293.093 137.254L293.096 137.261C303.292 163.904 305.197 190.888 300.667 212.484C296.108 234.221 285.314 249.532 270.999 254.811C236.651 266.774 210.149 272.855 183.678 272.977C157.217 273.1 130.403 267.268 95.4494 254.82C89.5339 252.608 83.8251 247.493 78.9179 239.748C74.0277 232.03 70.1515 222.027 67.7903 210.709C63.0598 188.036 64.5622 160.846 75.2362 137.558Z" fill="white" stroke="black" stroke-width="10"></path><path d="M129.03 136.152C102.595 136.152 70.0569 172.755 74.8028 198.513C79.5488 224.271 144.621 229.693 158.176 200.546C171.732 171.4 155.465 136.152 129.03 136.152Z" fill="black" stroke="black" stroke-width="10"></path><path d="M239.776 136.152C266.211 136.152 298.749 172.755 294.003 198.513C289.257 224.271 224.185 229.693 210.629 200.546C197.074 171.4 213.341 136.152 239.776 136.152Z" fill="black" stroke="black" stroke-width="10"></path><ellipse cx="133.776" cy="189.701" rx="29.8247" ry="29.8247" fill="white"></ellipse><path fill-rule="evenodd" clip-rule="evenodd" d="M159.533 189.023C159.533 202.126 148.912 212.747 135.809 212.747C132.641 212.747 129.618 212.127 126.855 211C128.535 210.269 129.709 208.595 129.709 206.647C129.709 204.026 127.584 201.902 124.964 201.902C122.343 201.902 120.219 204.026 120.219 206.647C120.219 206.736 120.221 206.825 120.226 206.913C115.238 202.563 112.085 196.161 112.085 189.023C112.085 175.921 122.707 165.299 135.809 165.299C138.76 165.299 141.585 165.838 144.192 166.822C139.804 167.658 136.487 171.514 136.487 176.144C136.487 181.385 140.736 185.634 145.977 185.634C151.218 185.634 155.466 181.385 155.466 176.144C155.466 176.003 155.463 175.862 155.457 175.723C158.03 179.516 159.533 184.094 159.533 189.023Z" fill="black"></path><ellipse cx="235.359" cy="189.701" rx="29.8247" ry="29.8247" fill="white"></ellipse><path fill-rule="evenodd" clip-rule="evenodd" d="M257.05 189.023C257.05 202.126 246.428 212.747 233.326 212.747C230.158 212.747 227.135 212.127 224.372 211C226.051 210.269 227.225 208.595 227.225 206.647C227.225 204.026 225.101 201.902 222.48 201.902C219.86 201.902 217.736 204.026 217.736 206.647C217.736 206.736 217.738 206.825 217.743 206.913C212.754 202.563 209.602 196.161 209.602 189.023C209.602 175.921 220.223 165.299 233.326 165.299C236.277 165.299 239.102 165.838 241.708 166.822C237.32 167.658 234.004 171.514 234.004 176.144C234.004 181.385 238.252 185.634 243.493 185.634C248.734 185.634 252.983 181.385 252.983 176.144C252.983 176.003 252.98 175.862 252.974 175.723C255.547 179.516 257.05 184.094 257.05 189.023Z" fill="black"></path><path d="M168.3 203.258C163.553 203.936 162.877 206.647 165.588 210.036C171.688 217.66 179.145 221.559 183.89 221.559C188.634 221.559 195.249 218.72 202.191 210.036C204.901 206.647 203.545 203.936 199.48 203.258C195.415 202.58 173.047 202.58 168.3 203.258Z" fill="black"></path><ellipse cx="175.756" cy="208.68" rx="5.42268" ry="2.71134" fill="white"></ellipse><path fill-rule="evenodd" clip-rule="evenodd" d="M171.123 230.462C177.549 230.462 182.758 226.289 182.758 221.141C182.758 220.898 183.072 220.782 183.202 220.988C183.959 222.191 184.382 223.536 184.382 224.954C184.382 230.102 178.809 234.276 171.935 234.276C165.06 234.276 159.487 230.102 159.487 224.954C159.487 224.434 160.191 224.38 160.439 224.839C162.225 228.147 166.336 230.462 171.123 230.462Z" fill="black"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M197.64 230.462C191.214 230.462 186.005 226.289 186.005 221.141C186.005 220.898 185.69 220.782 185.561 220.988C184.804 222.191 184.381 223.536 184.381 224.954C184.381 230.102 189.954 234.276 196.828 234.276C203.703 234.276 209.275 230.102 209.275 224.954C209.275 224.434 208.572 224.38 208.324 224.839C206.538 228.147 202.426 230.462 197.64 230.462Z" fill="black"></path><rect x="183.119" y="221.141" width="2.34513" height="4.23694" fill="black"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M168.977 196.922C173.554 194.053 178.864 192.413 184.527 192.413C189.208 192.413 193.649 193.534 197.633 195.543C193.834 191.034 189.049 188.346 183.849 188.346C178.139 188.346 172.929 191.587 168.977 196.922Z" fill="#C2CFD1"></path><path d="M90.9598 80.3821C90.9519 80.9709 91.2348 81.5269 91.7147 81.8688L98.4319 86.5089C99.0008 86.9026 99.2863 87.5925 99.1631 88.274C99.0583 88.9577 98.5688 89.5188 97.9076 89.7199L90.1316 92.1832C89.8593 92.2669 89.6114 92.414 89.404 92.6108L89.0917 92.9244C88.9996 93.0493 88.9283 93.1903 88.8848 93.3405L86.4662 101.141C86.3412 101.521 86.1005 101.853 85.7754 102.089C84.9637 102.645 83.856 102.452 83.2793 101.654L78.6118 94.9557C78.2644 94.4738 77.705 94.191 77.1115 94.1968L68.9011 94.3424C68.2141 94.3543 67.584 93.9688 67.2836 93.3517C66.9798 92.7404 67.0395 92.0117 67.4401 91.4589L72.3322 84.8774C72.7226 84.3951 72.839 83.746 72.6415 83.1575L69.9694 75.4501C69.9136 75.2747 69.8844 75.0912 69.8874 74.9076L69.9101 74.7228C69.9041 74.6085 69.9166 74.4965 69.9452 74.3868L70.0245 74.2145L70.1394 73.9372L70.6245 73.45C71.1028 73.0599 71.7445 72.9362 72.3326 73.1231L80.0616 75.7058C80.6243 75.8974 81.2453 75.7991 81.7226 75.4471L88.2832 70.527C88.8366 70.1102 89.5765 70.0382 90.1995 70.3382C90.8145 70.6487 91.1934 71.2864 91.1729 71.9758L90.9598 80.3821Z" fill="white"></path><path d="M75.3411 85.4338L71.8352 90.2359C71.3663 90.8781 71.7982 91.7842 72.5924 91.8243L78.7699 92.1363C79.0658 92.1512 79.3399 92.2966 79.5182 92.5333L83.4038 97.6913C83.9012 98.3515 84.9393 98.1575 85.1647 97.3623L86.2705 93.4606C86.3467 93.1916 86.3068 92.903 86.1605 92.6647L76.714 77.2803C76.5905 77.0792 76.4 76.9283 76.176 76.8542L74.396 76.265C73.6137 76.0061 72.8716 76.7514 73.1338 77.5326L75.4814 84.5259C75.5846 84.8333 75.5323 85.1718 75.3411 85.4338Z" fill="white"></path><path d="M151.654 61.2277C154.14 60.2556 160.305 57.1448 165.077 52.4787C171.043 46.6461 178.5 40.8135 181.483 36.439C183.869 32.9395 187.449 23.3156 188.94 18.9412C189.934 19.9133 191.923 23.024 191.923 27.6901V40.8135C191.923 44.7019 194.011 51.3122 202.363 46.6461C210.715 41.98 216.78 34.9809 218.769 32.0646C219.266 32.5506 219.962 34.9809 218.769 40.8135C217.576 46.6461 212.306 52.9648 209.82 55.3951C208.826 56.3672 210.715 58.603 214.295 59.7695C216.497 60.4872 218.812 61.9775 219.92 62.6786L220.26 62.6858C220.834 63.2469 220.613 63.1171 219.92 62.6786L151.654 61.2277Z" fill="black"></path></svg><a href="https://chat.earkick.com/"><div class="chat-button bordered-text" style="display: inline-block; opacity: 1; transform: none;"><span class="styled-text " style="color: rgb(255, 255, 255); background: rgb(168, 58, 61);">Chat With Panda</span></div></a></center></div></div></div></div><div class="pre-feature"><div class="feature__container"><div class="partners"><div class="partner"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/home-apple-logo.1c1cec210ae24628689614859c21467b.svg" alt="Hot this week" loading="lazy"></div></div></div></div><div class="feature"><div class="feature__container"><div class="partners"><div class="partner"><a href="https://www.nationalgeographic.com/science/article/ai-chatbots-treatment-mental-health" alt="National Geographic" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/national-geographic.02aa812eb3a2d1a735d3.png" width="150" alt="National Geographic" loading="lazy"></a></div><div class="partner"><a href="https://time.com/6320378/ai-therapy-chatbots" alt="time" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/time-logo.13f041c14b60d3442c749f125d146088.svg" width="150" alt="time" loading="lazy"></a></div><div class="partner"><a href="https://www.forbes.com/health/mind/ai-therapy/" alt="forbes" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/forbes-health.fc405e096ff42af5b151.png" width="150" alt="forbes" loading="lazy"></a></div><div class="partner"><a href="https://www.bbc.com/news/technology-67872693" alt="bbc" target="_blank" rel="noreferrer"><img src="data:image/png;base64,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" width="150" alt="bbc" loading="lazy"></a></div><div class="partner"><a href="https://www.theguardian.com/lifeandstyle/2024/mar/02/can-ai-chatbot-therapists-do-better-than-the-real-thing" alt="guardian" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/the-guardian.44df82c4ace69a4ed399.png" width="150" alt="guardian" loading="lazy"></a></div><div class="partner"><a href="https://apnews.com/article/chatbots-mental-health-therapy-counseling-ai-73feb819ff52a51d53fee117c3207219" alt="Associated Press" target="_blank" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/ap-logo.442c9c9a9ae3401bbb6b.png" width="90" alt="Associated Press" loading="lazy"></a></div></div></div></div><div class="info"><div class="info__container"><div class="element"><div class="panda yellow"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/panda-anony.d50331f3b7215b5838941f0aba56ac3d.svg" alt="Panda anonymous - no registration" loading="lazy"></div><div class="content"><h3 class="h3">AI powered</h3><p class="p">Auto-detect your mental state<br>Get immediate feedback<br>Chat with Earkick Panda</p></div></div><div class="element"><div class="panda green"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/panda-effortless.af3956a3d42b6cd40ac7814938796438.svg" alt="Panda effortless " loading="lazy"></div><div class="content"><h3 class="h3">Effortless</h3><p class="p">3-second check-in<br>No typing<br>Intuitive UX</p></div></div><div class="element"><div class="panda blue"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/panda-free.6b8a6b7d18ea40cd18f78df57b2d6ba6.svg" alt="Panda free " loading="lazy"></div><div class="content"><h3 class="h3">Radically private</h3><p class="p">No registration<br>No personal data<br>No ads, only AI therapy</p></div></div></div></div><div class="video"><div class="video__container"><link rel="preload" href="https://i.ytimg.com/vi/ql5UQx1RdpU/maxresdefault.jpg" as="image"><link rel="preconnect" href="https://www.youtube-nocookie.com/"><link rel="preconnect" href="https://www.google.com/"><article class="yt-lite " data-title="Your Self Care Companion Earkick" style="background-image: url(&quot;https://i.ytimg.com/vi/ql5UQx1RdpU/maxresdefault.jpg&quot;); --aspect-ratio: 56.25%;"><button type="button" class="lty-playbtn" aria-label="Watch Your Self Care Companion Earkick"></button></article></div></div><div class="work"><div class="work__container"><h2 class="h2">How does Earkick<div class="undefined bordered-text" style="display: inline-block; opacity: 1; transform: rotate(-4deg) translateZ(0px);"><span class="styled-text " style="color: rgb(240, 116, 251); background: rgb(252, 212, 255);">work?</span></div></h2><div class="content" style="opacity: 1;"><div class="element" style="opacity: 1;"><h3 class="h3"><span>01. </span>AI powered tracking</h3><div class="image-container"><img class="background" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/effortless-background.18bb63f5670cd86f13bda6c8b42035f5.svg" alt="Effortless background"><div class="phone" style="transform: none;"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/background-phone-1.3baed2b68605c1ceca36.png" alt="Effortless phone" style="transform: none;"><div class="phone-container" style="transform: none;"><div class="phone-header"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/phone-header-location.43f9d2d704eba89970e879fb4ae85a69.svg" alt="location" loading="lazy"><div class="phone-location"><div class="phone-location-container"><p>🗓 Last <span>7</span> days <img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/arrow-down.8f8c4a663e53689c79e24e7aff983799.svg" alt="arrow down" loading="lazy"></p></div></div></div><div class="phone-stats"><div class="phone-stats-circle"><h3>58%</h3><span>Mental readiness score</span></div><div class="phone-stats-circle-inner" style="transform: rotate(284.4deg);"></div></div><div class="phone-second-stats"><div><div class="container"><h6>Mood</h6><h6>61%</h6></div><div style="position: relative;"><div class="pink-line" style="width: 61%;"></div><div class="pink-outer-line"></div></div></div><div style="margin-top: 11px;"><div class="container"><h6>Mood stability</h6><h6>38%</h6></div><div style="position: relative;"><div class="pink-line" style="width: 38%;"></div><div class="pink-outer-line"></div></div></div><div style="margin-top: 11px;"><div class="container"><h6>Calmness</h6><h6>74%</h6></div><div style="position: relative;"><div class="pink-line" style="width: 74%;"></div><div class="pink-outer-line"></div></div></div></div><img alt="stats" class="phone-third-stats" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/phone-second-stats.d809fd9120b843bf5d1d.png" loading="lazy"></div></div></div><p class="p">Understand your emotional health in real time and receive suggestions to improve.</p></div><div class="element" style="opacity: 1;"><h3 class="h3"><span>02. </span>Real time conversations</h3><div class="image-container"><img class="background" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/insight-background.4228f3df534f9ec4d0a2fe92294d2b52.svg" alt="Insightful statistics background"><img class="phone" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/insight-phone.3ac165938649f1e08a93.png" alt="Effortless phone" style="transform: none;"></div><p class="p">Interact with your AI therapist of choice for real time support based on your input</p></div><div class="element" style="opacity: 1;"><h3 class="h3"><span>03. </span>Guided selfcare sessions</h3><div class="image-container"><img class="background" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/person-background.20a7ada271df49cf4f50062d0ef9d208.svg" alt="Personal statistics background"><div class="phone" style="transform: none;"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/blue-phone.86aefef7fce825b1d081.png" alt="Effortless phone" style="transform: none;"><div class="phone-container" style="transform: none;"><div class="meditation" style="margin-top: 9px;"><h5>Meditation</h5><div class="slider"><img src="data:image/png;base64,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" loading="lazy" alt="meditation"><img src="data:image/png;base64,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" loading="lazy" alt="meditation"><img src="data:image/png;base64,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" loading="lazy" alt="meditation"></div></div><div class="meditation" style="margin-top: 27px;"><h5>Breathing</h5><div class="slider"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/small-5.b5bfc4ee37ec452e3c1c.png" loading="lazy" alt="meditation"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/small-6.5a891a53ad683d581f71.png" loading="lazy" alt="meditation"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/small-7.18d728404cd56f4c582d.png" loading="lazy" alt="meditation"></div></div></div></div></div><p class="p">Learn to focus on recovery, find calm and become your healthiest self</p></div></div></div></div><div class="main-feature-list"><div class="main-feature-list__container"><h2 class="h2">Main<div class="undefined bordered-text" style="display: inline-block; opacity: 1; transform: rotate(-4deg) translateZ(0px);"><span class="styled-text " style="color: rgb(94, 140, 255); background: rgb(212, 224, 255);">features</span></div></h2><div class="content"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/1.1825b0ebf2d226da15718db1754530f4.svg" alt="Track your mood in just seconds"><h4 class="h4">Track your mood in just seconds</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/2.a1864659311597601285b15f2ed93a22.svg" alt="Add voice memos on the go"><h4 class="h4">Add voice memos on the go</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/3.05b072059f41c3fc097d5afe09cc131c.svg" alt="Set achievable routines easily"><h4 class="h4">Set achievable routines easily</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/4.1c43d82fb5c80fc069685f01161ae69f.svg" alt="Add video memos on the go"><h4 class="h4">Add video memos on the go</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/5.9e57402478bbf2eb1f788a1c45d7fade.svg" alt="Learn breathing techniques to combat stress"><h4 class="h4">Learn breathing techniques to combat stress</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/6.d2996e5def6e47be1a7892bf8e2efbdc.svg" alt="Get support based on your data"><h4 class="h4">Get support based on your data</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/7.f712ae44bc7740e1a156229eb1307b4d.svg" alt="Measure heart rate during sessions"><h4 class="h4">Measure heart rate during sessions</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/8.6e37520fc0996f2dfed5193fe7e2783b.svg" alt="Get daily quotes based on your situation"><h4 class="h4">Get daily quotes based on your situation</h4></div><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/9.15a5d78b65bd4c178c2f88528f66e568.svg" alt="Connect to your Apple Watch"><h4 class="h4">Connect to your Apple Watch</h4></div></div><div class="privacy-content"><div class="privacy-content__container"><div class="privacy-content__container-inner first"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/blue-phone-alan.764a239e3f800cb63bb5.png" alt="Blue phone, what are your main goals?"></div><div class="privacy-content__container-inner second"><h2 class="h2">Your privacy is<div class="undefined bordered-text" style="display: inline-block; opacity: 1; transform: rotate(-4deg) translateZ(0px);"><span class="styled-text " style="color: rgb(236, 111, 71); background: rgb(255, 210, 195);">key</span></div></h2><p>No registration is required to use Earkick. This means that we have no personal data whatsoever about you. Your data belongs to you and only to you.</p><p>We are not exposing it to third parties. Your data serves to support you and is used to build better tools for everyone who wants to manage anxiety in the future.</p></div></div></div></div></div><div class="user"><div class="user__container"><h2 class="h2">What our<div class="undefined bordered-text" style="display: inline-block; opacity: 1; transform: rotate(-4deg) translateZ(0px);"><span class="styled-text " style="color: rgb(57, 218, 82); background: rgb(212, 255, 219);">users</span></div>are saying</h2><div class="content"><div class="first-element"><div class="header-style"><img class="circle" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/yellow-head-icon.fa285c3329f5adba68d88d889734a2da.svg" alt="Yellow head icon"><p>Shamanix08</p><div class="stars-style"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/stars.2a7bcba41bdb17d6835d16c45ac8640f.svg" alt="stars" loading="lazy"></div></div><h3>Measure heart rate during sessions</h3><p>I had no idea I need such an app! Love the integration with Apple Watch - I get notifications and I see that it tracks more health data when I use the app (those breathing exercises are AWESOME!!!).</p></div><div class="first-element"><div class="header-style"><img class="circle" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/yellow-head-icon.fa285c3329f5adba68d88d889734a2da.svg" alt="Yellow head icon"><p>rla1978</p><div class="stars-style"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/stars.2a7bcba41bdb17d6835d16c45ac8640f.svg" alt="stars" loading="lazy"></div></div><h3>Very effective that puts privacy first</h3><p>This is one of those rare apps that actually puts your privacy first. I did not have to create a login or account of any kind. Stress and anxiety are such personal and private conditions that have historically prevented me from using other apps. Earkick has handled it really well. Overall I am impressed with the app so far. It reminds me to&nbsp;log things without being too intrusive and&nbsp;the&nbsp;exercises are quick enough to feel just right to&nbsp;calm me down. It has got me doing things in&nbsp;a&nbsp;regular basis which is the key to&nbsp;managing stress.</p></div><div class="first-element margin-style"><div class="header-style"><img class="circle" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/yellow-head-icon.fa285c3329f5adba68d88d889734a2da.svg" alt="Yellow head icon"><p>frogslide</p><div class="stars-style"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/stars.2a7bcba41bdb17d6835d16c45ac8640f.svg" alt="stars" loading="lazy"></div></div><h3>Great app for anxiety</h3><p>As a therapist that works with anxiety daily I cannot recommend this app enough. Plus, they have wonderful customer service and are constantly improving this app.</p></div></div></div></div><div class="try-earkick"><div class="try-earkick__container"><div class="circle-earkick"><img class="earkick-bear" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/earkick-bear-heart.94c3c344128ae576fecb19b57630aa60.svg" alt="Earkick bear" loading="lazy"></div><h2>Try Earkick today!</h2><p>Track and improve your mental health in real time</p><div class="download-apps"><a href="https://earkick.go.link/?adj_t=1gmtqodf&amp;adj_campaign=tryearkick" target="_blank" class="app-store" rel="noreferrer"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/app-store.4bfc3228d4683dcd173e.webp" alt="Appstore download button" loading="lazy"></a></div><div class="powered-by-eleven-labs"><div class="pre-text">Panda's voice is</div><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/Powered_by_ElevenLabs.8b841b5be6d1fdab31ac.png" alt="Powered By Eleven Labs" loading="lazy"></div></div></div></div><div class="footer"><div class="footer__container"><div class="socials"><a href="https://www.instagram.com/earkick/" target="_blank" rel="noreferrer"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/instagram.f143fdb2e51c20d07a5bc671aba52efe.svg" alt="Instagram" loading="lazy"></div></a><a href="https://www.facebook.com/earkick" target="_blank" rel="noreferrer"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/facebook.ab066dc06289c5672bfceb0dc44b5568.svg" alt="Faceboook" loading="lazy"></div></a><a href="https://twitter.com/earkickapp" target="_blank" rel="noreferrer"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/twitter.6eb8dee561637fd769c00036fbc0adbb.svg" alt="Twitter" loading="lazy"></div></a><a href="https://www.youtube.com/channel/UCjqXTMgHNd0LlncJBGeV8cA" target="_blank" rel="noreferrer"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/youtube.03ce3320ff936a5602d06dd6afaa6903.svg" alt="Youtube" loading="lazy"></div></a><a href="https://www.linkedin.com/company/76142134/admin/" target="_blank" rel="noreferrer"><div class="element"><img src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg" alt="Linkedin" loading="lazy"></div></a></div><a class="privacy-style" href="https://earkick.com/privacy">Privacy Policy</a><br><br><a class="privacy-style" href="https://earkick.com/terms">Terms &amp; Conditions</a></div></div></div></div><iframe allow="join-ad-interest-group" data-tagging-id="G-6Q848KCR7E" data-load-time="1738900889652" height="0" width="0" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/rul.html" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-11479403843" data-load-time="1738900890050" height="0" width="0" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/11479403843.html" style="display: none; visibility: hidden;"></iframe><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./Earkick - Your Free Personal AI Therapist Chat Bot_files/saved_resource.html"></iframe><script>!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src="https://connect.facebook.net/en_US/fbevents.js",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script"),fbq("init","1680722115456586"),fbq("track","PageView")</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1680722115456586&ev=PageView&noscript=1"/></noscript><script>!function(e,t,n){e.TiktokAnalyticsObject=n;var o=e[n]=e[n]||[];o.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],o.setAndDefer=function(e,t){e[t]=function(){e.push([t].concat(Array.prototype.slice.call(arguments,0)))}};for(var a=0;a<o.methods.length;a++)o.setAndDefer(o,o.methods[a]);o.instance=function(e){for(var t=o._i[e]||[],n=0;n<o.methods.length;n++)o.setAndDefer(t,o.methods[n]);return t},o.load=function(e,t){var a="https://analytics.tiktok.com/i18n/pixel/events.js";o._i=o._i||{},o._i[e]=[],o._i[e]._u=a,o._t=o._t||{},o._t[e]=+new Date,o._o=o._o||{},o._o[e]=t||{};var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src=a+"?sdkid="+e+"&lib="+n;var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(i,s)},o.load("CCK169BC77U0EARNA1L0"),o.page()}(window,document,"ttq")</script><div id="ejmmioggcokagpjlajeilkakgphhmmbj" class="Oq465NRHaOKegSCssrnhCql2WEIDuYU0"><div></div><div></div></div>
+<script>
+window[window.TiktokAnalyticsObject].instance("CCK169BC77U0EARNA1L0").track("Download",{"pixelMethod":"standard","eb_version":"v1","is_standard_mode":"1"});
+</script>
+</body></html>
