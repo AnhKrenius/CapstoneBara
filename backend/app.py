@@ -9,7 +9,7 @@ CORS(app)  # Enable CORS to allow React frontend to communicate with Flask
 # Initialize the Groq model
 llm = ChatGroq(
     temperature=0,
-    groq_api_key="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",
+    groq_api_key=MY_KEY,
     model_name="deepseek-r1-distill-llama-70b"
 )
 
